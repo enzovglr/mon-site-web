@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-family: Arial, sans-serif;
     color: white;
+    background-color: #000;
 }
 
 /* Barre supérieure */
@@ -60,19 +61,8 @@ body {
     transition: color 0.3s;
 }
 
-.icons svg {
-    width: 24px;
-    height: 24px;
-    fill: white; /* Couleur de l'icône */
-    transition: fill 0.3s;
-}
-
-.icons a:hover svg {
-    fill: #4CAF50; /* Couleur au survol */
-}
-
 .icons a:hover {
-    color: #4CAF50; /* Pour les icônes Font Awesome */
+    color: #4CAF50; /* Couleur au survol */
 }
 
 /* Section Hero */
