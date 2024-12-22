@@ -3,60 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Stickers Personnalisés</title>
+    <title>Accueil - Stickers Personnalisés</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Barre supérieure -->
+    <div class="top-bar">
+        <p>Suivez-nous sur Instagram @stickers.custom</p>
+    </div>
+
+    <!-- Menu principal -->
     <header>
-        <h1>Stickers Personnalisés</h1>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="categories.html">Catégories</a></li>
+                <li><a href="produits.html">Produits</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="icons">
+                <a href="#"><img src="images/icon-user.png" alt="Utilisateur"></a>
+                <a href="#"><img src="images/icon-search.png" alt="Recherche"></a>
+                <a href="#"><img src="images/icon-cart.png" alt="Panier"></a>
+            </div>
+        </nav>
     </header>
 
-    <!-- Nouvelle section des catégories -->
-    <section class="categories">
-        <div class="category">
-            <a href="stickers-feuilles.html">
-                <img src="images/stickers-feuilles.jpg" alt="Feuilles de stickers">
-                <p>Feuilles de stickers</p>
-            </a>
-        </div>
-        <div class="category">
-            <a href="stickers-individuels.html">
-                <img src="images/stickers-individuels.jpg" alt="Autocollants individuels">
-                <p>Autocollants individuels</p>
-            </a>
-        </div>
-        <div class="category">
-            <a href="stickers-voiture.html">
-                <img src="images/stickers-voiture.jpg" alt="Autocollants pour voiture">
-                <p>Autocollants et aimants pour voiture</p>
-            </a>
-        </div>
-        <div class="category">
-            <a href="stickers-muraux.html">
-                <img src="images/stickers-muraux.jpg" alt="Stickers muraux">
-                <p>Stickers muraux, pour sol et vitrine</p>
-            </a>
+    <!-- Image de fond avec texte -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Personnalisez vos stickers</h1>
+            <p>Donnez vie à vos idées avec des stickers sur-mesure pour vos véhicules, murs, et plus encore.</p>
+            <a href="categories.html" class="cta-button">Découvrir nos catégories</a>
         </div>
     </section>
-    <!-- Fin de la nouvelle section -->
 
-    <nav>
-        <ul>
-            <li>
-                <button class="menu-btn">Marques de voitures</button>
-                <ul class="submenu">
-                    <li>Audi</li>
-                    <li>BMW</li>
-                    <li>Mercedes</li>
-                    <li>Tesla</li>
-                </ul>
-            </li>
-        </ul>
-    </nav>
+    <!-- Barre inférieure -->
+    <div class="bottom-bar">
+        <p>🚚 Livraison rapide en 15 jours | Personnalisation garantie 🌟</p>
+    </div>
 
-    <footer>
-        <p>© 2024 Stickers Personnalisés</p>
-    </footer>
-    <script src="script.js"></script>
 </body>
 </html>
