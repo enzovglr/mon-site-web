@@ -116,7 +116,7 @@ body {
     display: flex; /* Aligne les icônes horizontalement */
     align-items: center; /* Aligne verticalement au centre */
     gap: 10px; /* Ajoute de l'espacement constant entre les icônes */
-    margin-right: 22px; /* Ajoute un espace à droite des icônes pour éviter qu'elles soient trop près du bord */
+    margin-right: 30px; /* Ajoute un espace à droite des icônes pour éviter qu'elles soient trop près du bord */
 }
 .icons a {
     color: white;
