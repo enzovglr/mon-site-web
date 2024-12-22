@@ -112,6 +112,11 @@ body {
     z-index: 1000;
     color: #ccc;
 }
+.icons {
+    display: flex; /* Aligne les icônes horizontalement */
+    align-items: center; /* Aligne verticalement au centre */
+    gap: 15px; /* Ajoute de l'espacement constant entre les icônes */
+}
 .icons a {
     color: white;
     margin-left: 15px;
